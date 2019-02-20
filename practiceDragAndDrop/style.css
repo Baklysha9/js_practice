@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: auto; 
+}
+.main_container {
+    width: 900px;
+    height: 700px;
+    border: black solid 1px;
+}
+.section1 {
+    height: 70%;
+    border-bottom: black solid 1px;
+}
+#section2 {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+}
+.microImg {
+    height: 95%;
+    margin-left: 10px;
+}
+.bigImg {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
