@@ -11,14 +11,6 @@ drag.addEventListener('click', function(event) {
 drag.addEventListener('dragenter', function (e) {
     e.preventDefault();
     this.style.border = "1px solid #FF0000";
-
-    // const reader = new FileReader()
-    // reader.onload = function () {
-    // const img = new Image()
-    // img.src = reader.result
-    // document.body.appendChild(img)
-    // }
-    // reader.readAsDataURL(drag.files)
 });
 
 drag.addEventListener('dragleave', function (e) {
