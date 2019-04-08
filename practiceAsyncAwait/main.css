@@ -5,6 +5,23 @@
     align-items: flex-start;
     flex-wrap: wrap;
 }
+.filmPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: arial;
+    width: 800px;
+    height: auto;
+    position: fixed;
+    z-index: 1000;
+    background:#322d2e;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
 .borderBox {
     position: relative;
     text-align: center;
@@ -33,4 +50,14 @@
 .icon {
     font-size: 40px !important;
     color: orange;
+}
+.buttonClose {
+  font-family: arial;
+  font-size: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  margin-right: 10px;
+
 }
