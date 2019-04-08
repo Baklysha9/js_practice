@@ -1,0 +1,15 @@
+{
+  "name": "bodypack2112",
+  "version": "1.0.0",
+  "description": "practice",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Body",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
+}
